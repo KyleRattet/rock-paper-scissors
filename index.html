@@ -22,9 +22,9 @@
           <label for="exampleInputPassword1">Player Move</label>
           <select ng-model="playerMove" class="form-inline">
               <option value=''>--Please Select--</option>
-              <option>rock</option>
-              <option>paper</option>
-              <option>scissors</option>
+              <option>Rock</option>
+              <option>Paper</option>
+              <option>Scissors</option>
             </select>
         </div>
         <div class="form-inline">
@@ -35,7 +35,9 @@
         <button type="submit" ng-click="playGame()" class="btn btn-success">Play Game</button>
       </form>
 
-      </div>
+<hr>
+
+
 
       <h3>Game Result {{ winner }}</h3>
       <p>Player Score: {{ playerScore }}</p>
@@ -43,10 +45,15 @@
       <p>Ties: {{ ties }}</p>
 
 
+       <img src="http://advisoranalyst.advisoranalystgr.netdna-cdn.com/wp-content/uploads/2014/05/thumb_6917_rockpaperscissors.jpg" alt="rock paper scissors" height="275" width="325”">
 
+        </div>
       </div>
     </div>
 
+    <div id="footerBar">
+    <a>Another Classic Game from RatteMor</a>
+    </div>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

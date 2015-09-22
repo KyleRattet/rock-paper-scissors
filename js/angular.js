@@ -26,10 +26,6 @@ app.controller('myController', function($scope) {
       $scope.winner = "Tie";
       $scope.ties += 1;
     }
-
-
-
-
   }
 
 });
